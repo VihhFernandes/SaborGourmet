@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9; /* Fundo mais suave */
+}
+
+header {
+    background-color: #ffeac9;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+}
+
+header h1 {
+    text-align: left;
+    margin: 0; /* Remove margin padrão */
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    margin: 0 15px; /* Ajusta espaçamento entre links */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold; /* Destaque nos links */
+    transition: color 0.3s; /* Transição suave */
+}
+
+nav a:hover {
+    color: #d69d6a; /* Cor ao passar o mouse */
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto 0; /* Adiciona uma margem superior de 20px */
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* Fundo para o formulário */
+    padding: 20px;
+    border-radius: 10px; /* Cantos arredondados do formulário */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para o formulário */
+    margin-top: 50px;
+}
+
+label {
+    margin-bottom: 5px; /* Mais espaço entre label e input */
+    font-weight: bold; /* Destaque para labels */
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px; /* Ajusta padding para inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Aumenta o tamanho da fonte */
+}
+
+button {
+    padding: 10px;
+    background-color: #ffeac9;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Aumenta o tamanho da fonte do botão */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #d69d6a; /* Cor ao passar o mouse no botão */
+}
