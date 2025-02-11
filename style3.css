@@ -9,7 +9,7 @@ header {
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+    box-shadow: 0 2px 10px rgb(57, 57, 57); /* Sombra para profundidade */
 }
 
 header h1 {
@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #d69d6a; /* Cor ao passar o mouse */
+    color: rgb(199, 0, 0); /* Cor ao passar o mouse */
 }
 
 form {

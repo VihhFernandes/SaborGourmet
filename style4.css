@@ -1,33 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
 }
-h1 {
-    text-align: center;
-}
-.category {
-    margin-top: 30px;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-th, td {
-    border: 4px solid #9191915a;
-    text-align: left;
-    padding: 15px;
-}
-th {
-    background-color: #ffeac9;
-}
-img {
-    width: 100px;
-    height: auto;
-}
-
-
 
 header {
     background-color: #ffeac9;
@@ -56,5 +31,27 @@ nav a {
 
 nav a:hover {
     color: rgb(199, 0, 0); /* Cor ao passar o mouse */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 20px; /* Ajuste o valor conforme necessário */
+}
+
+a {
+    color: #35424a;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#map {
+    width: 100%;
+    height: 300px;
+    border: 0;
 }
 
